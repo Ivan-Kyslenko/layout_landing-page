@@ -83,6 +83,11 @@
     box-sizing: border-box;
     transition: border-color $effectDuration;
 
+    &:-webkit-autofill {
+      -webkit-text-fill-color: #7e7e83;
+      -webkit-box-shadow: 0 0 0 1000px #f8f8fa inset;
+    }
+
     &:hover {
       border-color: #f8f8fa;
     }
