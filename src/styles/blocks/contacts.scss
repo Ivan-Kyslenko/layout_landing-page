@@ -40,9 +40,11 @@
     font-family: 'Space Mono', monospace;
     font-size: 16px;
     color: #191919;
+    text-decoration: none;
   }
 
-  &__link {
+  &__link,
+  &__address {
     text-decoration: none;
     transition: color $effectDuration;
 

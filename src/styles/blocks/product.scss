@@ -13,4 +13,15 @@
       transform: scale(1.05);
     }
   }
+
+  &__title,
+  &__price {
+    font-family: 'Space Grotesk', monospace;
+    font-weight: 700;
+  }
+
+  &__category {
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+  }
 }

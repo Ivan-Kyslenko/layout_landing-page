@@ -69,8 +69,4 @@
   object-fit: cover;
   object-position: center;
   transition: transform $effectDuration;
-
-  &:hover {
-    transform: scale(1.03);
-  }
 }
